@@ -1,0 +1,38 @@
+* {
+    background-color: #d7dfdb;
+
+}
+  main ul {
+    width: 200px;
+    overflow: hidden;
+    padding: 0;
+    margin: auto;
+  }
+  
+  #stores-info {
+    width: 500px;
+    margin: auto;
+    float: inline-start;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: fit-content;
+  }
+  
+  td, th {
+    border: 1px solid #492f2f;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #08e966;
+  }
+  
+  #sales-forecast {
+    background-color:rgb(224, 172, 26)
+  }
+  
+
