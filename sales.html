@@ -16,61 +16,72 @@
           <a href="./sales.html">Sales</a>
           <a href="./store.html">Store</a>
         </nav>
-    
+    <main>
+        <section class="Store">
+          <ul>
+              <li>Pat's Salmon Cookies</li>
+          </ul>
+      </section> 
+
+      <section class="phone">
+              <ul>
+                  <li>Phone: 206-618-6648</li>
+                  <li>Mobile: 206-618-6648</a></li>
+              </ul> 
+      </section>
+
+      <form class="ContactUsForm">
+          <fieldset>
+              <label for="fname">First Name:</label>
+              <input type="text" name="firstname" placeholder="Your First Name" minLength="3" required>
+          </fieldset>
+
+          <fieldset>
+                  <label for="lname">Last Name:</label>
+                  <input type="text" name="lastname" placeholder="Your Last Name" minLength="3" required>
+          </fieldset>
+
+          <fieldset>
+                  <label for="subject">Question/Comments:</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+          </fieldset>
+          <input type="submit" value="Submit">
+      </form>
+  </main>
+  
+  
       <h1>Daily Sales Reports</h1>
 
       <section id="placeholder-Table">
              <table id="table" >
                  <thead>
                    <tr>
-                     <!-- <th>HoursOfOperation</th>
-                     <th>6am</th>
-                     <th>7am</th>
-                     <th>8am</th>
-                     <th>9am</th>
-                     <th>10am</th>
-                     <th>11am</th>
-                     <th>12pm</th> -->
+                     
                    </tr>
                  </thead>
                  <tbody>
                    <tr>
-                     <!-- <td>Seattle</td>
-                     <td>23</td>
-                     <td>65</td>
-                     <td>6.3</td> -->
+                     
                    </tr>
                  </tbody>
                  <tbody>
                      <tr>
-                       <!-- <td>Tokyo</td>
-                       <td>3</td>
-                       <td>24</td>
-                       <td>1.2</td> -->
+                       
                      </tr>
                  </tbody>
                  <tbody>
                      <tr>
-                       <!-- <td>Dubai</td>
-                       <td>11</td>
-                       <td>38</td>
-                       <td>3.7</td> -->
+                       
                      </tr>
                  </tbody>
                  <tbody>
                      <tr>
-                       <!-- <td>Paris</td>
-                       <td>20</td>
-                       <td>38</td>
-                       <td>2.3</td> -->
+                       
                      </tr>
                  </tbody>
                  <tbody>
                      <tr>
-                       <!-- <td>Lima</td>
-                       <td>2</td>
-                       <td>16</td>
-                       <td>4.6</td> -->
+                       
                      </tr>
                  </tbody>
                 </table>
@@ -80,6 +91,8 @@
       
       <section id="store-Location-Hourly-Totals"></section>
           
+      <footer>© 2019 SALMON COOKIES ALL RIGHTS RESERVED</footer>
+
         
     <script src="js/app.js"></script>
 
