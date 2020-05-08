@@ -2,29 +2,40 @@
     background-color: #d7dfdb;
 
 }
+  h1{
+   font-size: 40px;
+   text-align: center;
+   color: blue;
+   }
+
   main ul {
     width: 200px;
-    overflow: hidden;
-    padding: 0;
+    padding: 5px;
+    font-size: 30px;
+   
+  }
+   h2{
+       text-align: center;
+       color: blue;
+   }
+  
+  /* #stores-info {
+    width: 300px;
     margin: auto;
+    float: inline-start; */
   }
   
-  #stores-info {
-    width: 500px;
-    margin: auto;
-    float: inline-start;
-  }
-  
-  table {
+  #table {
+    text-align: center;  
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: fit-content;
+    width: 300px;
   }
   
   td, th {
     border: 1px solid #492f2f;
     text-align: left;
-    padding: 8px;
+    padding: 5px;
   }
   
   tr:nth-child(even) {
