@@ -1,25 +1,41 @@
-* {
-    background-color: #d7dfdb;
-    text-align: center;
-    
-    
-    
+body {
+    background-color: #d7dfdb; 
+    font-family: Helvetica, sans-serif;
 
+    
 }
-/* body { */
-    /* margin-right: 300px; */
-/* } */
 
-/* nav li {
-    float: left;
-    height: 20px;
-    background-color :rgb(241, 167, 225);
-    margin-right: 200px;
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  font-family: 'Galada', cursive;
+
   }
+
+ main ul {
+   width: 200px;
+   padding: 5px;
+   font-size: 20px;
   
-  ul {
-    list-style: none;
-    margin-right: 200px;
-  } */
-  
+ }
+  h2{
+      text-align: center;
+      color: blue;
+  }
+  main nav {
+    margin-top: 50px;
+    margin-left: 450px;
+    font-size: 30px;
     
+}
+
+ footer ul {
+    list-style: square;
+    padding-top: 30px;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+  }  
+  
+  
