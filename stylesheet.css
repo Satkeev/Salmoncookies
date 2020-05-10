@@ -6,6 +6,7 @@
    font-size: 40px;
    text-align: center;
    color: blue;
+   font-family: 'Galada', cursive;
    }
 
   main ul {
@@ -15,7 +16,7 @@
    
   }
    h2{
-       text-align: center;
+       text-align: left;
        color: blue;
    }
   
@@ -29,21 +30,38 @@
     text-align: center;  
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 300px;
+    width: 500px;
+    margin-left: 200px;
   }
   
   td, th {
     border: 1px solid #492f2f;
     text-align: left;
     padding: 5px;
+    background-color: red;
   }
   
   tr:nth-child(even) {
-    background-color: #08e966;
+    background-color: #3908e9;
   }
   
-  #sales-forecast {
-    background-color:rgb(224, 172, 26)
+  #table {
+    background-color: #1ae024
+  }
+  form {
+    width: fit-content;
+  }
+  form button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
   
 

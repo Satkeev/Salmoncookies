@@ -1,25 +1,41 @@
-* {
-    background-color: #d7dfdb;
-    text-align: center;
+body {
+    background-color: #d7dfdb; 
+    font-family: Helvetica, sans-serif;
+
+    
 }
-     
-  h1{font-size:50px;
-     color: blue;
-    }
-  
-  nav {
-    font-size: 30px;
-    margin-top: 30px;
-  }  
-  list-of-thangs nav {
-    list-style: square;
-    margin-top: 30px;
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  font-family: 'Galada', cursive;
+
   }
-  ul {
+
+ main ul {
+   width: 200px;
+   padding: 5px;
+   font-size: 20px;
+  
+ }
+  h2{
+      text-align: center;
+      color: blue;
+  }
+  main nav {
+    margin-top: 50px;
+    margin-left: 450px;
+    font-size: 30px;
+    
+}
+
+ footer ul {
     list-style: square;
     padding-top: 30px;
-    font-size: 20px;
-    color: blue;
-  } 
+    font-size: 15px;
+    color: red;
+    text-align: center;
+  }  
   
-    
+  
