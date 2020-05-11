@@ -42,9 +42,9 @@ StoreLocation.prototype.render = function (){
     // tableHead.setAttribute('scope', 'row');
     tableHead.innerText = `${this.name}`;
     parentElement.appendChild(tableHead);
-    var sum = 0;
+     var sum = 0;
     // tableRow = document.createElement('tr');
-    for(var i=0; i<hoursOfOperation.length; i++){
+  for(var i=0; i<hoursOfOperation.length; i++){
       // create the element
       var tableData = document.createElement('td');
       // give it content
@@ -56,12 +56,12 @@ StoreLocation.prototype.render = function (){
     tableData = document.createElement('td');
     tableData.textContent = sum;
     parentElement.appendChild(tableData);
+    
 };
-
-
-function renderHoursRow() {
-    var parentElement = document.getElementById('table');
-    var tableRow = document.createElement('tr');
+  
+ function renderHoursRow() {
+   var parentElement = document.getElementById('table');
+   var tableRow = document.createElement('tr');
     tableRow.setAttribute('id', 'hours-row');
     parentElement.appendChild(tableRow);
     parentElement = document.getElementById('hours-row');
@@ -69,14 +69,17 @@ function renderHoursRow() {
     var blankTableHead = document.createElement('th');
     parentElement.appendChild(blankTableHead);
     
-    for(var i=0; i<hoursOfOperation.length; i++){
+  for(var i=0; i<hoursOfOperation.length; i++){
         console.log('hoursOfOperation',hoursOfOperation[i]);
         // put 'color' on the table
         tableHeader = document.createElement('th');
         tableHeader.textContent = hoursOfOperation[i];
         parentElement.appendChild(tableHeader);
     }
-  
+    
+    tableData = document.createElement('td');
+   tableData.textContent = 'Total daily';
+   tableRow.appendChild(tableData);  
   }
 
 StoreLocation.prototype.cookiesForTheDay = function(){
@@ -88,8 +91,8 @@ StoreLocation.prototype.cookiesForTheDay = function(){
     // this.totalCookiesForTheDay = this.totalCookiesForTheDay + this.cookiesSoldEachHour[i]
   }
 }
- 
-function renderFooterRow(){
+
+ function renderFooterRow(){
   var totalOfAllTotals = 0;
   var tableRow = document.createElement('tr');
   var tableData = document.createElement('td');
@@ -108,6 +111,8 @@ function renderFooterRow(){
     tableRow.appendChild(tableData);
 
   }
+
+
   // append the total of all totals
   // create a td
   tableData = document.createElement('td');
@@ -124,8 +129,6 @@ function renderFooterRow(){
 function getRandomNumber(min, max){
   return Math.floor(Math.random() * (max-min +1)) + min;
 }
-
-
 
 var seattle = new StoreLocation('Seattle', 23, 65, 6.3);
 var tokyo = new StoreLocation('Tokyo', 3, 24, 1.2);
